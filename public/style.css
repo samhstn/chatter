@@ -1,0 +1,76 @@
+.hidden{
+    visibility: hidden;
+}
+.welcomePage{
+    background-color: white;
+    height: 5000px;
+    width: 5000px;
+    z-index: 1000;
+    position: absolute;
+}
+.mainPage{
+    position: absolute;
+}
+.top{
+    clear: both;
+}
+.userInfo{
+    float: left;
+    margin-right: 30px;
+    background-color: lightgreen;
+    width: 200px;
+    height: 100px;
+}
+.middle{
+    margin-top: 100px;
+    clear: both;
+}
+.rooms{
+    float: left;
+    margin-right: 30px;
+    background-color: lightgreen;
+    width: 200px;
+    height: 400px;
+}
+.messages{
+    float: left;
+    margin-right: 30px;
+    background-color: lightblue;
+    width: 500px;
+    height: 400px;
+}
+.online{
+    float: left;
+    background-color: #FF0000;
+    width: 200px;
+    height: 400px;
+}
+.bottom{
+    margin-top: 520px;
+}
+.botLeft{
+    float: left;
+    margin-right: 30px;
+    width: 200px;
+    height: 100px;
+}
+.botMiddle{
+    float: left;
+    margin-right: 30px;
+    width: 500px;
+    height: 100px;
+}
+.botRight{
+    float: left;
+    margin-right: 30px;
+    width: 200px;
+    height: 100px;
+}
+.mess{
+    width: 400px;
+    height: 30px;
+}
+.send{
+    width: 80px;
+    height: 30px;
+}

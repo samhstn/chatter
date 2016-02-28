@@ -1,0 +1,24 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "## What",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shouston3/chatter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shouston3/chatter/issues"
+  },
+  "homepage": "https://github.com/shouston3/chatter#readme",
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}

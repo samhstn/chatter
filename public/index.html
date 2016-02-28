@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chatter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="welcomePage">
+            <h1>Welcome to Chatter</h1>
+            <h2>Sign in</h2>
+            <input class="siuser"type="text" name="name" value="">
+            <input class="sipassword"type="text" name="name" value="">
+            <button class="login" type="button" name="button">Login</button>
+            <div class="errorBox">Sorry username...</div>
+            <h2>New user? Sign up</h2>
+            <input class="suuser"type="text" name="name" value=""><button class="checkButton" name="button">check</button>
+            <input class="supassword"type="text" name="name" value="">
+            <button type="button" name="button">Sign up</button>
+        </div>
+        <div class="mainPage">
+            <div class="top">
+                <div class="userInfo">
+                    Logged in as shouston<br><br>
+                    <button type="button" name="button">Logout</button>
+                </div>
+                <div class="title">
+                    <h3>Chatter</h3>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="rooms">
+                    Rooms<br><br>
+                    Public<br><br>
+                    <button type="button" name="button">Create a room</button>
+                </div>
+                <div class="messages">Messages</div>
+                <div class="online">Online</div>
+                <div class="messageBox">
+
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="botLeft"></div>
+                <div class="botMiddle">
+                    <input class="mess" name="name" value="">
+                    <button class="send" type="button" name="button">send</button>
+                </div>
+                <div class="botRight"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
