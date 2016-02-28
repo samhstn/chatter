@@ -3,8 +3,7 @@
 ## What
 
 A chatroom which you can chat publicly, you can view who is online, you can set up a room with your room code and anyone can join, there is an endpoint to clear the database (typed in to the username box)
-The chat can distinguish if you were the one who sent the message
-Private message
+The chat can distinguish if you were the one who sent the message, you can also chat privately
 
 ## How
 
